@@ -1,13 +1,13 @@
 https://github.com/roperi/Podcast2Wordpress/assets/9901508/95777c6b-7445-4fe5-850e-62543cb0ac2e
 
 
-<h1 align="center">Podcast2Wordpress - Easily Turn Your Podcast Episodes into WordPress Blog Posts</h1>
+<h1 align="center">Podcast2WordPress - Easily Turn Your Podcast Episodes into WordPress Blog Posts</h1>
 <h2 align="center">Deepgram + ChatGPT + Stable Diffusion + WordPress XLM-RPC</h2>
 
 
-Podcast2Wordpress is a Python script designed to streamline the process of converting podcast episodes into engaging blog posts on WordPress. This tool automates the transcription of audio files, processes the transcribed content, generates visually appealing imagery, and uploads the resulting blog post to a WordPress site. 
+Podcast2WordPress is a Python script designed to streamline the process of converting podcast episodes into engaging blog posts on WordPress. This tool automates the transcription of audio files, processes the transcribed content, generates visually appealing imagery, and uploads the resulting blog post to a WordPress site. 
 
-With Podcast2Wordpress, content creators can effortlessly repurpose their podcast episodes into written blog posts, enhancing their online presence and audience engagement.
+With Podcast2WordPress, content creators can effortlessly repurpose their podcast episodes into written blog posts, enhancing their online presence and audience engagement.
 
 ----------
 
@@ -16,10 +16,10 @@ With Podcast2Wordpress, content creators can effortlessly repurpose their podcas
 - Podcast transcription from an URL 
 - Generates transcription summary
 - Generates a featured image from the transcription summary
-- Uploads summary and image to Wordpress
+- Uploads summary and image to WordPress
 
 ## Functionality
-Podcast2Wordpress performs the following tasks:
+Podcast2WordPress performs the following tasks:
 - Transcribes the audio from the provided URL.
 - Processes the transcript to generate content for the blog post.
 - Generates an image based on the transcript content.
@@ -110,7 +110,7 @@ DG_API_KEY='jg5sfg597sfgj75gj59sfgj58fgj5fs52c4mc'
 2. `OPENAI_MODEL='gpt-3.5-turbo'`:
    - This specifies the model you want to use from OpenAI's offerings.
    - In this case, it's set to use the GPT-3.5 Turbo model, which is a variant of the GPT-3.5 model optimized for faster response times.
-   - Podcast2Wordpress accepts: 
+   - Podcast2WordPress accepts: 
      - gpt-4: 8192 tokens max context window (including completion tokens)
      - gpt-3.5-turbo: 16385 max context window (including completion tokens)
      - gpt-4-32k: 32768 max context window (including completion tokens)
@@ -121,7 +121,7 @@ Any type of WordPress account (even the free ones) can get a "WordPress Applicat
 
 
 1. `WORDPRESS_APP_PASSWORD="myS3cR3tP455W0rD"`:
-   - Also called Wordpress Application Password. 
+   - Also called WordPress Application Password. 
    - This is the password used to authenticate with the WordPress XML-RPC API.
    - It's used to allow your application to interact with WordPress programmatically, such as creating posts or managing content.
 
@@ -215,7 +215,7 @@ The script logs various events and errors to a log file located in the `log` dir
 ## Handling Errors and Tracking Failed Audio Transcriptions
 
 
-The Audio Transcriptor module within Podcast2Wordpress handles error logging for failed audio transcription attempts. If an error occurs during the transcription process, the write_to_errored_file function writes the name of the project to the audio-transcription-errored.txt file located in the output directory. This file serves as a log of projects that encountered errors during transcription, allowing for easier tracking and troubleshooting of transcription issues.
+The Audio Transcriptor module within Podcast2WordPress handles error logging for failed audio transcription attempts. If an error occurs during the transcription process, the write_to_errored_file function writes the name of the project to the audio-transcription-errored.txt file located in the output directory. This file serves as a log of projects that encountered errors during transcription, allowing for easier tracking and troubleshooting of transcription issues.
 
 ----------
 
