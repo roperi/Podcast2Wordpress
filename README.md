@@ -1,4 +1,9 @@
-# Podcast2Wordpress
+https://github.com/roperi/Podcast2Wordpress/assets/9901508/95777c6b-7445-4fe5-850e-62543cb0ac2e
+
+
+<h1 align="center">Podcast2Wordpress - Easily Turn Your Podcast Episodes into WordPress Blog Posts</h1>
+<h2 align="center">Deepgram + ChatGPT + Stable Diffusion + WordPress XLM-RPC</h2>
+
 
 Podcast2Wordpress is a Python script designed to streamline the process of converting podcast episodes into engaging blog posts on WordPress. This tool automates the transcription of audio files, processes the transcribed content, generates visually appealing imagery, and uploads the resulting blog post to a WordPress site. 
 
