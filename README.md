@@ -117,7 +117,7 @@ DG_API_KEY='jg5sfg597sfgj75gj59sfgj58fgj5fs52c4mc'
      - gpt-4-turbo-preview: 128000 context window (including completion tokens)
 
 ### WordPress
-Any type of WordPress account (even the free ones) can get this password. Get it from your security settings in [https://wordpress.com/me/security/two-step](https://wordpress.com/me/security/two-step).  Requires activating Two-step authentication. 
+Any type of WordPress account (even the free ones) can get a "WordPress Application Password". Get it from your security settings in [https://wordpress.com/me/security/two-step](https://wordpress.com/me/security/two-step).  Requires activating Two-step authentication. 
 
 
 1. `WORDPRESS_APP_PASSWORD="myS3cR3tP455W0rD"`:
